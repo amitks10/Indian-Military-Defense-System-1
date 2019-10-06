@@ -1216,7 +1216,7 @@ void menu()
     cout<<"10.MESSAGE INTERCEPTION \n";
     cout<<"11.ENCODE A MESSAGE \n";
     cout<<"12.DECODE A MESSAGE \n\n\n";
-    cout<<"ENTER YOUR CHOICE :: ";
+    cout<<"ENTER YOUR CHOICE (any other number to stop) : ";
     cin>>choice;
 
     switch(choice)
@@ -1253,56 +1253,6 @@ void menu()
 
 int main()
 {
-    /*
-    string user;
-    char pass[100];
-
-
-    gotoxy(25,10);
-    cout<<" USERNAME:: ";
-    getline(cin,user);
-
-
-    if(user=="alpharaw")
-    {
-    gotoxy(25,2);
-    cout<<" PASSWORD:: ";
-    strcpy(pass,typepass());
-
-       if(strcmp("jiit62",pass)==0)
-       {
-        initialize();
-       }
-
-       else
-       {
-         gotoxy(25,2);
-         cout<<" WRONG PASSWORD!!! ";
-
-         getch();
-         system("cls");
-         main();
-         return 0;
-
-       }
-
-    }
-
-   else
-   {
-       gotoxy(25,2);
-
-       cout<<" WRONG USERNAME!!! ";
-
-       getch();
-
-       system("cls");
-
-       main();
-
-       return 0;
-    }
-*/
    menu();
    return 0;
 }
